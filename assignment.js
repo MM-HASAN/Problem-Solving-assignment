@@ -19,7 +19,6 @@ function budgetCalculator(watch, phone, laptop){
   var phonePerPrice = 100;
   var laptopPerPrice = 500;
 
-
   var totalCost =( watch * watchPerPrice + phone * phonePerPrice + laptop * laptopPerPrice );
   return totalCost;
 }
